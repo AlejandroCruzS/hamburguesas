@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     let colecionPaises = ColeccionDePaises()
     let colecionHamburguesas =  ColeccionDeHamburguesa()
-    
+    let colores = Colores()
     
     
     
@@ -35,6 +35,12 @@ class ViewController: UIViewController {
         lbPais.text =  colecionPaises.obtenPais()
         
         lbHamburguesa.text = colecionHamburguesas.obtenHamburguesa()
+        
+        let colorAleratorio = colores.regresaColoresAleatorio();
+        
+        view.backgroundColor = colorAleratorio
+        view.tintColor = colorAleratorio
+        
         
     }
 
