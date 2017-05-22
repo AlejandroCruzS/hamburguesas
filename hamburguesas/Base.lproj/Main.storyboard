@@ -47,9 +47,11 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZ2-co-L3n">
                                                 <rect key="frame" x="0.0" y="0.0" width="177" height="30"/>
+                                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="177" id="6dC-QF-psl"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.93819049870000004" green="0.93819049870000004" blue="0.93819049870000004" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Quiero una hamburguesa!"/>
                                                 <connections>
                                                     <action selector="cambiarPaisHamburguesa:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e6Z-JG-aEI"/>
@@ -59,7 +61,7 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="34y-wD-ZpG">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="34y-wD-ZpG">
                                 <rect key="frame" x="171" y="82" width="31.5" height="20.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="J8C-BV-Ybn">
